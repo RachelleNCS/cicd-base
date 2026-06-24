@@ -23,7 +23,7 @@ jobs:
     - name: Build / Test with Maven
       run: mvn -B test
 
-snyk-security-scanning:
+  snyk-security-scanning:
     runs-on: ubuntu-latest
 
     steps:
